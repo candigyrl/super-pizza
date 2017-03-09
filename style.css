@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Slab');
+
+body{
+  margin: auto;
+  height: 100%;
+}
+
+/*styling for  name of company*/
+#site-name {
+    padding: 15px 0 0 25px;
+    margin: 0;
+    color: #C70039;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+
+/*styling for header and tagline*/
+header {
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #827C7E;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+header h1 {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*styling for  individual pizza pies*/
+
+main{
+  padding: 30px 0 30px 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pizza-pie {
+    padding: 0;
+    border: solid 2px;
+    border-radius: 15px;
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+    margin-left: 100px;
+    text-align: center;
+    color: black;
+}
+
+#cheese {
+    background:url('images/plain_pizza.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#pepperoni{
+    background:url('images/pepperoni_pizza.jpg') no-repeat center center;
+    background-size: cover;
+  }
+
+#mushroom{
+    background:url('images/mushroom.jpg') no-repeat center center;
+    background-size: cover;
+}
