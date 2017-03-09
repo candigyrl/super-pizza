@@ -69,10 +69,26 @@ main{
     background-size: cover;
 }
 
+/*Styling for buttons*/
+button {
+  position: relative;
+  bottom: -325px;
+  height: 50px;
+  width: 200px;
+  background-color: #827C7E;
+  color: white;
+  border-radius: 15px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+}
+
+button:hover { background-color:#727272;}
+button:focus { outline: none;}
+
 .hide {
   display: none;
 }
 
 .show {
-  display: block;
+  display: inline-block;
 }
